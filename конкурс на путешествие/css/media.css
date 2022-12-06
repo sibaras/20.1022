@@ -1,0 +1,36 @@
+@media screen and (max-width:1000px){
+    .container-inner{
+        max-width: 90%;
+    }
+    .block-full-name{
+        width: 48%;
+    }
+    .block-contact{
+        width: 100%;
+    }
+    .odoptathia-contact{
+        width: 100%;
+    }
+    .surname{
+        width: 100%;
+    }
+    .name{
+        width: 100%;
+    }
+    .patronymic{
+        width: 100%;
+    }
+    .block-application{
+        width: 48%;
+
+    }
+}
+
+@media screen and (max-width: 750px){
+    .form-header{
+        display: block;
+    }
+    .border{
+        width: 208%;
+    }
+}

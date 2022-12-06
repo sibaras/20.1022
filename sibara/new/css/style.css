@@ -1,0 +1,19 @@
+.block{
+    width: 500px;
+    height: 300px;
+    background-color: aqua;
+}
+.box{
+    width: 130px;
+    height: 130px;
+    background-color: violet;
+    transition-property: transform; 
+    transition-duration: 5s;
+    transition-timing-function: ease;
+    transition-delay: 0;
+    transform: translate(0,0) rotate(0) scale(0,0);
+}
+.block:hover .box{
+    transform: translate(250px, 170px) rotate(360px) scale(2);
+}
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <section class="container logo">
+        <div>
+            <nav class="nav-inner">
+                <img src="img/logo.png" alt="picture">
+                <ul class="menu">
+                    <li class="items"><a href="#" class="link">Главная</a></li>
+                    <li class="items"><a href="#" class="link">Фотографии</a></li>
+                    <li class="items"><a href="#" class="link">Конкурс</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section>
+        <div class="block">
+            <h1 class="text">Конкурс на путешествие с Пинк</h1>
+            <p class="info">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль <br> на вашу бонусную карту! Пожалуйста, заполните форму ниже:</p>
+        </div>
+        <div class="container-inner">
+            <form action="GET" >
+                <div class="form-header">
+                    <div class="block-full-name">
+                        <div class="row-form">
+                            <label for="surname">Фамилия</label>
+                            <input type="text" class="surname" placeholder="Укажите фамилию *" id="surname" >
+                        </div>
+                        <div class="row-form">
+                            <label for="name">Имя</label>
+                            <input type="text" class="name" placeholder="Введите ваше имя *" id="name">
+                        </div>
+                        <div class="row-form">
+                            <label for="patronymic">Отчество</label>
+                            <input type="text" class="patronymic"  placeholder="Укажите ваше отчество" id="patronymic">
+                        </div>
+                    </div>
+                    <div class="block-application"> 
+                        <fieldset class="border">
+                            <legend class="application-border-text">С каким приложением путешествовали?</legend>
+                            <div class="row-form">
+                                <input class="radio" value="iOS" id="iOS" type="radio"  name="application">
+                                <label class="lable-application" for="iOS">Pink для iOS</label>
+                            </div>
+                            <div class="row-form">
+                                <input class="radio" value="Android" id="Android" type="radio"  name="application">
+                                <label class="lable-application" for="Android" >Pink на Android</label>
+                            </div>
+                            <div class="row-form">
+                                <input class="radio" value="Phone" type="radio" id="Phone" name="application">
+                                <label class="lable-application" for="Phone"  >Windows Phone</label>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="row-form">
+                    <fieldset class="border border-padding">
+                        <legend class="application-border-text">Контакная Информация</legend>
+                        <div class="form-contact">
+                            <div class="wrap-block-contact">
+                                <div class="block-contact">
+                                    <input class="contact" type="number" id="contact" placeholder="Ваш номер телефона">
+                                    <div class="contact-icon">
+                                        <i class="fa-solid fa-tty"></i>
+                                    </div>
+                                </div>
+                                <p class="text"><label for="contact">Номер телефона</label></p>
+                            </div>
+                            <div class="wrap-block-contact">
+                                <div class="block-contact">
+                                    <input class="contact" type="number" id="contact" placeholder="Ваш email*">
+                                    <div class="contact-icon-1">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </div>
+                                </div>
+                                <p class="text"><label for="contact">ваша почта</label></p>
+                            </div>
+                        </div>  
+            </form>
+        </div>
+    </section>
+   
+</body>
+</html>

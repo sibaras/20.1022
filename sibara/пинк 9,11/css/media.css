@@ -1,0 +1,11 @@
+@media screen and (max-width: 1000px){
+    .container-inner{
+        max-width: 90%;
+    }
+    .block-full-name{
+        width: 48%;
+    }
+    .block-application{
+        width: 48%;
+    }
+}

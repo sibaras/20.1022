@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/9cf340ed4e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lora&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-inner">
+                    <img src="img/logo.png" alt="">
+                    <ul class="menu">
+                        <li class="item"><a href="#" class="link">Главная</a></li>
+                        <li class="item"><a href="#" class="link">Фотографии</a></li>
+                        <li class="item"><a href="#" class="link">Конкурс</a></li>
+                    </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container row">
+        <h1 class="title">Конкурс на путешествие с Пинк </h1>
+        <p class="text1">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 <br> миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:</p>
+    </div>
+     <div class="container-inner">
+        <form action="GET">
+            <div class="form-header">
+                <div class="block-full-name">
+                    <div class="full-name">
+                        <label for="surname">фамилия:</label>
+                        <input class="surname" type="text" id="surname" name="surname"  placeholder="укажите фамилию">
+                    </div> 
+                    <div class="full-name">
+                        <label for="name">имя:</label>
+                        <input class="name" type="text" id="name" name="name" placeholder="ввидите свое имя">
+                    </div>
+                    <div class="full-name">
+                        <label for="patronymic">очество:</label>
+                        <input class="patronymic" type="text" id="patronymic" name="patronymic" placeholder="ввидите свое очество">
+                    </div>
+                </div>
+                <div class="block-application">
+                    <fieldset class="border">
+                        <legend class="application-border-text">С каким придолжение вы работали</legend>
+                        <div class="gd">
+                            <div class="row-form">
+                                <input class="radio" type="radio" value="iOS" id="iOS" name="application">
+                                <label class="label-application" for="iOS">Pink для iOS</label>
+                            </div>
+                            <div class="row-form">
+                                <input class="radio" type="radio" value="Android" id="Android" name="application">
+                                <label class="label-application" for="Android">Pink на Android</label>
+                            </div>
+                            <div class="row-form">
+                                <input class="radio" type="radio" value="Phone" id="Phone" name="application">
+                                <label class="label-application" for="Phone">Windows Phone</label>
+                            </div>
+                        </div>
+                       
+                    </fieldset>
+                </div>
+            </div>
+            <div class="row-form">
+                <fieldset class="border1 border-padding">
+                    <legend class="application-border-text">Контакная Информация</legend>
+                    <div class="form-contact">
+                        <div class="odoptathia-contact">
+                            <div class="block-contact">
+                                <input class="contact" type="number" id="contact" placeholder="Ваш номер телефона">
+                                <div class="contact-icon">
+                                    <i class="fa-solid fa-tty"></i>
+                                </div>
+                            </div>
+                            <p class="text"><label for="contact">Номер телефона</label></p>
+                        </div>
+                       <div class="">
+                        <div class="block-contact">
+                            <input class="contact" type="email" id="contact" placeholder="Ваш email*">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                        </div>
+                        <p class="text"><label for="contact">Адрес почты</label></p>
+                       </div>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="comments">
+                <fieldset class="border1">
+                    <legend class="application-border-text">Опишите свои эмоции</legend>
+                    <input class="dye" type="text" placeholder="Можно прям в красках, не стесняясь в выражениях">
+                </fieldset>
+            </div>
+            <div class="send">
+                <button class="btn">Отправить форму</button>
+                <p c>* — обязательные для заполнения поля</p>
+            </div>
+        </form>
+    </div>
+    <footer class="footer">© Copyright Name Studio</footer>
+            <button type="submit">отпровить</button>
+               
+        </form>
+    </div>
+
+   
+</body>
+</html>
